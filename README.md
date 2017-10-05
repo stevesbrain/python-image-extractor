@@ -6,10 +6,10 @@ It is theoretically capable of extracting data from any file that contains multi
 
 ## Usage
 
-Usage is quite simple:
+Usage is quite simple. In the following example, the filename is simply `thumbdata3`:
 
 ```bash
 ./extract.py --file thumbdata3
 ```
 
-The script will then output to the same directory a bunch of JPG's. These are the files you are after.
+The script will then output to the same directory a bunch of JPG's (named sequentially). These are the files you are after.
