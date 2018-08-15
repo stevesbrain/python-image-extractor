@@ -1,5 +1,7 @@
 # Python Image Extractor
 
+This project currently uses Python2. Please use Python2 with it :)
+
 This project was originally created to extract JPG's out of the Android Thumbdata3 format.
 
 It is theoretically capable of extracting data from any file that contains multiple JPG's within.
