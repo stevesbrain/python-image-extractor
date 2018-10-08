@@ -1,6 +1,6 @@
 # Python Image Extractor
 
-This project currently uses Python2. Please use Python2 with it :)
+This project currently uses Python2.
 
 This project was originally created to extract JPG's out of the Android Thumbdata3 format.
 
@@ -14,4 +14,4 @@ Usage is quite simple. In the following example, the filename is simply `thumbda
 ./extract.py --file thumbdata3
 ```
 
-The script will then output to the same directory a bunch of JPG's (named sequentially). These are the files you are after.
+The script will then output all JPG's to the same directory. These are the files you are after, named sequentially.
