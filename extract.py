@@ -8,7 +8,7 @@ import argparse
 
 parser = argparse.ArgumentParser(description='Name of the file to address')
 
-parser.add_argument('--file', dest='FileName', type=str, help='Filename to process')
+parser.add_argument('--file', dest='FileName', type=str, help='Filename containing images to process')
 
 args = parser.parse_args()
 
