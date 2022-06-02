@@ -18,7 +18,10 @@ f=open(args.FileName,'rb')
 tdata = f.read()
 f.close()
 
-ss = '\xff\xd8'
+# The starting sequence is \xff\xd8 technically 
+# but \xff\xd8\xff works better for not-only-jpegs resource files.
+# The second \xff is just a beginning of next jpeg frame.
+ss = '\xff\xd8\xff'
 se = '\xff\xd9'
 
 count = 0
